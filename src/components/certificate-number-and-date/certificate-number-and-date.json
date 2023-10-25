@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_certificate_number_and_date_certificate_number_and_dates",
+  "info": {
+    "displayName": "CertificateNumberAndDate"
+  },
+  "options": {},
+  "attributes": {
+    "CertificateName": {
+      "type": "string"
+    },
+    "CertificateDate": {
+      "type": "date"
+    }
+  }
+}

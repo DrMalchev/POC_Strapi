@@ -1,0 +1,112 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tables",
+  "info": {
+    "singularName": "table",
+    "pluralName": "tables",
+    "displayName": "Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EIK": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "AddressCompany": {
+      "type": "string"
+    },
+    "Manager": {
+      "type": "string"
+    },
+    "Object": {
+      "type": "string"
+    },
+    "AddressObject": {
+      "type": "string"
+    },
+    "ContactPerson": {
+      "type": "string"
+    },
+    "AdditionalInformation": {
+      "type": "string"
+    },
+    "CertificateNumberAndDate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "certificate-number-and-date.certificate-number-and-date"
+    },
+    "NextMeasurementParameter": {
+      "type": "enumeration",
+      "enum": [
+        "MK",
+        "Osv",
+        "Sh",
+        "Phase",
+        "ZZU",
+        "MZU",
+        "Isol",
+        "DTZ",
+        "Vent",
+        "Klim"
+      ]
+    },
+    "NextMeasurementDate": {
+      "type": "date"
+    },
+    "RemindOn": {
+      "type": "date"
+    },
+    "PriseWithoutVAT": {
+      "type": "float"
+    },
+    "PaymentType": {
+      "type": "enumeration",
+      "enum": [
+        "Bank",
+        "Cash"
+      ]
+    },
+    "InvoiceNumberAndDate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "invoice-number-and-date.invoice-number-and-date"
+    },
+    "Payed": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "ReceiveBy": {
+      "type": "enumeration",
+      "enum": [
+        "SelfPickUp",
+        "ByBorislav",
+        "ByNiki",
+        "ByPlamen"
+      ]
+    },
+    "ContragentPercentage": {
+      "type": "float"
+    },
+    "ContragentPrice": {
+      "type": "float"
+    },
+    "IncomeCASHWithoutVAT": {
+      "type": "float"
+    },
+    "IncomeBANKWithoutVAT": {
+      "type": "float"
+    },
+    "RealIncomeWithoutVAT": {
+      "type": "float"
+    }
+  }
+}

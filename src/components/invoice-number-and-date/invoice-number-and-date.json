@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_invoice_number_and_date_invoice_number_and_dates",
+  "info": {
+    "displayName": "InvoiceNumberAndDate"
+  },
+  "options": {},
+  "attributes": {
+    "InvoiceNumber": {
+      "type": "string"
+    },
+    "InvoiceDate": {
+      "type": "date"
+    }
+  }
+}
