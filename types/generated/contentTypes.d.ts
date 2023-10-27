@@ -367,7 +367,7 @@ export interface ApiTableTable extends Schema.CollectionType {
   info: {
     singularName: 'table';
     pluralName: 'tables';
-    displayName: 'Table';
+    displayName: '\u041A\u043B\u0438\u0435\u043D\u0442\u0438';
     description: '';
   };
   options: {
@@ -403,6 +403,7 @@ export interface ApiTableTable extends Schema.CollectionType {
     IncomeCASHWithoutVAT: Attribute.Float;
     IncomeBANKWithoutVAT: Attribute.Float;
     RealIncomeWithoutVAT: Attribute.Float;
+    Contragent: Attribute.Enumeration<['FromUS', 'STM Redi', 'STM Sv Pant']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

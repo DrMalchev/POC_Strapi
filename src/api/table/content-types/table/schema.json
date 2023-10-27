@@ -4,7 +4,7 @@
   "info": {
     "singularName": "table",
     "pluralName": "tables",
-    "displayName": "Table",
+    "displayName": "Клиенти",
     "description": ""
   },
   "options": {
@@ -107,6 +107,14 @@
     },
     "RealIncomeWithoutVAT": {
       "type": "float"
+    },
+    "Contragent": {
+      "type": "enumeration",
+      "enum": [
+        "FromUS",
+        "STM Redi",
+        "STM Sv Pant"
+      ]
     }
   }
 }
